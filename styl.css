@@ -1,0 +1,354 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows:
+        min-content min-content auto min-content;
+    grid-template-areas:
+        "header header"
+        "nav nav"
+        "aside main"
+        "footer footer";
+}
+
+header,
+nav,
+aside,
+main,
+
+footer {
+    border: 1px solid rgb(223, 223, 223);
+    background-color: rgb(183, 40, 114);
+}
+
+
+header {
+    grid-area: header;
+}
+
+aside {
+    grid-area: aside;
+    height: 900px;
+
+}
+
+
+main {
+    grid-area: main;
+    height: 900px;
+}
+
+footer {
+    grid-area: footer;
+}
+
+nav {
+    grid-area: nav;
+    float: center;
+    background-color: rgb(183, 40, 112);
+    height: calc(18vh - 70px);
+}
+
+
+.float {
+    float: center;
+    text-align: center;
+    border: 1px solid rgb(206, 200, 200);
+    margin-right: 10px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    background-color: rgb(0, 0, 0);
+}
+
+#message1 {
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: left;
+    position: absolute;
+}
+
+#message2 {
+    position: absolute;
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: left;
+    position: absolute;
+}
+
+#message3 {
+    position: absolute;
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+#message4 {
+    position: absolute;
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+#message5 {
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: left;
+    position: absolute;
+}
+
+#message11 {
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: left;
+    position: absolute;
+} 
+
+#message12 {
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: left;
+    position: absolute;
+} 
+
+#message13 {
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: left;
+    position: absolute;
+} 
+
+#message15 {
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: left;
+    position: absolute;
+} 
+
+#message16{
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: left;
+    position: absolute;
+} 
+#message17{
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: left;
+    position: absolute;
+} 
+
+#message18{
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: left;
+    position: absolute;
+} 
+
+#message19{
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: left;
+    position: absolute;
+} 
+
+#message21{
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    position: absolute;
+} 
+
+#message22{
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    position: absolute;
+} 
+
+#message25{
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    position: absolute;
+} 
+
+
+#button1 {/*Biography button*/
+    border: 2px solid #0e0d0d;
+    width: 100px;
+    text-align: center;
+    padding: 1px 30px;
+    font-size: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+
+#button2 {/*Photography button*/
+    border: 2px solid #0e0d0d;
+    width: 100px;
+    text-align: center;
+    padding: 1px 30px;
+    font-size: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+
+#button3 {/*Work button*/
+    border: 2px solid #0e0d0d;
+    width: 100px;
+    text-align: center;
+    padding: 1px 30px;
+    font-size: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+
+#button4 { /*Links button*/
+    border: 2px solid #0e0d0d;
+    width: 100px;
+    text-align: center;
+    padding: 1px 30px;
+    font-size: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+
+#button5 { /*Management button*/
+    border: 2px solid #040404;
+    width: 100px;
+    text-align: center;
+    padding: 1px 30px;
+    font-size: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+
+
+#button11 {/*Life button*/
+    border: 2px solid #040404;
+    text-align: center;
+    padding: 1px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 500px;
+}
+
+#button12 {/*Legacy button*/
+    border: 2px solid #040404;
+    text-align: center;
+    padding: 1px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 500px;
+}
+
+
+#button13 {/*Major works button*/
+    border: 2px solid #040404;
+    text-align: center;
+    padding: 1px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: auto;
+}
+
+#button15 { /*Self-portraits button*/
+    border: 2px solid #040404;
+    text-align: center;
+    padding: 1px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 500px;
+}
+
+#button16 {  /*The Scream button*/
+    border: 2px solid #040404;
+    text-align: center;
+    padding: 1px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 500px;
+}
+
+#button17 {  /*Ashes button*/
+    border: 2px solid #040404;
+    text-align: center;
+    padding: 1px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: auto;
+}
+
+#button18 {  /*Nudes button*/
+    border: 2px solid #040404;
+    text-align: center;
+    padding: 1px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 500px;
+}
+
+#button19 {  /*Landscapes button*/
+    border: 2px solid #040404;
+    text-align: center;
+    padding: 1px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: auto;
+}
+
+#button21 {  /*information button*/
+    border: 2px solid #040404;
+    text-align: center;
+    padding: 1px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 500px;
+}
+
+#button22 {  /*paintings button*/
+    border: 2px solid #040404;
+    text-align: center;
+    padding: 1px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: auto;
+}
+
+#button25 {  /*Sign In button*/
+    border: 2px solid #040404;
+    text-align: center;
+    padding: 1px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: auto;
+}
+
+
+.wrapper {
+    position: relative;
+    top: 4vh;
+}
+
+
+.hide {
+    visibility: hidden;
+}
+
+.reveal {
+    visibility: visible;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+}
+
+.flex img{
+    align-items: center;
+    max-width: 100%;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+
